@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+:root{
+    --primary-color:#017CC9;
+    --secondary-color:#11232F;
+    --primary-light-shade:#4DA9DA;
+    --secondary-light-shade:#203546;
+    --text-color:#EFFAFC;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+input[type="date"] {
+    color-scheme: dark;
+  }
